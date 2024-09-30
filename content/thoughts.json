@@ -5,11 +5,6 @@
     "timestamp": "2024-09-30T07:43:42.709Z"
   },
   {
-    "id": "1727676374716",
-    "content": "def translate(input_text):\n    \"\"\"万能语言翻译器，输入必须以‘，，’或‘,,’开始\"\"\"\n    \n    # 检查输入格式\n    if not (input_text.startswith('，，') or input_text.startswith(',,')):\n        raise ValueError(\"输入必须以‘，，’或‘,,’开始\")\n    \n    # 去掉前缀\n    text_to_translate = input_text[2:].strip()\n    \n    # 判断语言类型\n    if is_chinese(text_to_translate):\n        # 如果是中文，翻译为英文\n        translated_text = translate_to_english(text_to_translate)\n    else:\n        # 如果是非中文语言，翻译为中文\n        translated_text = translate_to_chinese(text_to_translate)\n    \n    return translated_text\n\ndef is_chinese(text):\n    \"\"\"判断文本是否为中文\"\"\"\n    for char in text:\n        if '\\u4e00' <= char <= '\\u9fff':  # Unicode范围内的中文字符\n            return True\n    return False\n\ndef translate_to_english(chinese_text):\n    \"\"\"将中文翻译为英文\"\"\"\n    # 这里可以调用翻译API或使用翻译库\n    # 示例翻译\n    return f\"Translated to English: {chinese_text}\"\n\ndef translate_to_chinese(non_chinese_text):\n    \"\"\"将非中文语言翻译为中文\"\"\"\n    # 这里可以调用翻译API或使用翻译库\n    # 示例翻译\n    return f\"Translated to Chinese: {non_chinese_text}\"\n\n# 示例用法\ninput_text = \"，，你好，世界\"\noutput = translate(input_text)\nprint(output)  # 输出: Translated to English: 你好，世界\n\ninput_text = \",,Hello, world\"\noutput = translate(input_text)\nprint(output)  # 输出: Translated to Chinese: Hello, world",
-    "timestamp": "2024-09-30T06:06:14.716Z"
-  },
-  {
     "id": "1727672397842",
     "content": "同学25w冲进了股市，bless，不要做消费者\n\n![IMG_20240930_125718.jpg](https://github.com/movitecc/tinymind-blog/blob/main/assets/images/2024-09-30/1727672351756.jpg?raw=true)",
     "timestamp": "2024-09-30T04:59:57.842Z"
