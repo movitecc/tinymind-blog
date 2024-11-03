@@ -3,9 +3,10 @@ title: would-the-us-nationalize-tsmc-oversea-facilities-in-case-of-emergency
 date: 2024-11-03T15:09:05.552Z
 ---
 
+
 ## SemiWiki 文章逐句翻译及解释
 
-![link](https://semiwiki.com/forum/index.php?threads/would-the-us-nationalize-tsmc-oversea-facilities-in-case-of-emergency.21379/)
+[link](https://semiwiki.com/forum/index.php?threads/would-the-us-nationalize-tsmc-oversea-facilities-in-case-of-emergency.21379/)
 
 **What’s at stake:**
 
