@@ -1,7 +1,8 @@
 ---
-title: pros and cons of hierichy design and flatten design
+title: DC - pros and cons of hierichy design and flatten design
 date: 2024-11-17T12:35:33.902Z
 ---
+
 
 ## Hierarchical vs. Flat Design: Differences, Pros, and Cons
 
