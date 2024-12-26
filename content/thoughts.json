@@ -1,5 +1,10 @@
 [
   {
+    "id": "1735226205355",
+    "content": "  * N-阱（N-Well）： 用于形成PMOS晶体管的区域。\n   * 有源区（Active）： 定义晶体管的源极、漏极和沟道区域。\n   * 多晶硅（Poly）： 通常用于形成晶体管的栅极。\n   * N-注入（N-implant）和P-注入（P-implant）： 用于改变半导体材料的导电类型，形成N型或P型区域。\n   * 金属（Metal）： 用于连接不同元件的导线。",
+    "timestamp": "2024-12-26T15:16:45.355Z"
+  },
+  {
     "id": "1735121341740",
     "content": "BC block owner\nBO block coordinator\n\n00 adjust SRAM by dataflow, power plan by maps\n\nWhat's channel \n\nCcopt  clock concurrent optimization \n\nInn input file: Sdc netlist constraints \n\nWhat's PG DENSITY \nWhat's origin setting \nQRC file function \nGDS map file",
     "timestamp": "2024-12-25T10:09:01.740Z"
