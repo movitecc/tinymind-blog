@@ -3,7 +3,9 @@ title: py demo6
 date: 2025-03-02T14:59:58.485Z
 ---
 
-、、、python 
+
+```python 
+
 import sys
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QProgressBar, 
                             QTableWidget, QTableWidgetItem, QHeaderView, QDockWidget, 
@@ -255,3 +257,4 @@ def main():
 if __name__ == '__main__':
     main()
 
+```
