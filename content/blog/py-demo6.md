@@ -3,6 +3,7 @@ title: py demo6
 date: 2025-03-02T14:59:58.485Z
 ---
 
+、、、python 
 import sys
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QProgressBar, 
                             QTableWidget, QTableWidgetItem, QHeaderView, QDockWidget, 
@@ -167,6 +168,7 @@ class MainWindow(QMainWindow):
         # 增加行高以使表格B的内容占据更多空间
         for row in range(2):
             table.setRowHeight(row, 50)  # 设置更大的行高
+、、、
         
         # 使用特殊的布局处理来确保表格B和D之间无空白
         wrapper = QWidget()
